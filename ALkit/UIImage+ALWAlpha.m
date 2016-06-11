@@ -54,7 +54,7 @@
 // Returns a copy of the image with a transparent border of the given size added
 // around its edges.
 // If the image has no alpha layer, one will be added to it.
-- (UIImage *)ALW_transparentBorderImage:(NSUInteger)borderSize {
+- (UIImage *)alw_transparentBorderImage:(NSUInteger)borderSize {
   // If the image does not have an alpha layer, add one
   UIImage *image = [self alw_imageWithAlpha];
 
