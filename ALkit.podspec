@@ -9,4 +9,5 @@ s.source = { :git => 'https://github.com/AlphaWorld/ALkit.git', :tag => s.versio
 s.requires_arc = true
 s.ios.deployment_target = '8.0'
 s.source_files = 'ALkit/*.{h,m}'
+s.dependency 'MBProgressHUD', '~> 0.9.1'
 end
